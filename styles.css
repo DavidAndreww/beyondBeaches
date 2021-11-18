@@ -3,6 +3,21 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+#headline-banner {
+	background-image: url('./images/mainstreet.jpg');
+	height: 910px;
+	width: 1400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: 1;
+	background-color: black;
+}
+#hero-title {
+	position: relative;
+	top: 20em;
+}
 .red {
 	color: rgba(204, 38, 38, 0.959);
 }
@@ -16,21 +31,23 @@
 #header {
 	display: flex;
 	justify-content: space-around;
-	position: fixed;
+	/* position: fixed; */
 	width: 100%;
-	top: 0;
+	/* top: 0; */
 }
 
 #nav-bar {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 2em;
-	padding-bottom: 2em;
 	padding-right: 5em;
-	width: 100%;
+	padding-left: 5em;
 	background-color: white;
 	height: 5em;
 	border-bottom: solid 0.1px rgba(141, 31, 31, 0.13);
+	width: 100%;
+	position: sticky;
+	top: 0;
 }
 
 #site-title {
@@ -41,27 +58,19 @@
 .nav-link {
 	text-decoration: none;
 }
-.body {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-#hero-title{
-	padding-top: 10em;
-	line-height: 3em;
-}
 
 #hero-title h1 {
 	font-size: 52px;
+	position: relative;
 }
 #hero-title {
 	text-align: center;
+	height: 10em;
 }
 #hero-title button {
 	margin: 10px;
 	background-color: white;
-	border: solid 0.2px rgba(141, 31, 31, 0.146);
-	padding: 4px;
+	border: none;
+	padding: 8px;
 	border-radius: 3px;
 }

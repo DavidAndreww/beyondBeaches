@@ -13,11 +13,15 @@
 	background-size: cover;
 	background-color: black;
 	opacity: 1;
+	margin-bottom: 4em;
 }
 #hero-title {
 	position: relative;
 	top: 15em;
 	align-items: center;
+}
+#hero-title h1 {
+	color: white;
 }
 .red {
 	color: rgba(204, 38, 38, 0.959);
@@ -50,6 +54,9 @@
 	position: sticky;
 	top: 0;
 }
+#nav-bar h1{
+	font-size: 32px;
+}
 
 #site-title {
 	display: flex;
@@ -58,14 +65,15 @@
 	width: 100%;
 	text-align: center;
 }
+
 .nav-link {
 	text-decoration: none;
 	padding-left: 55px;
 }
 
 #hero-title h1 {
-	font-size: 52px;
-	text-shadow: 1px;
+	font-size: 45px;
+	text-shadow: 2px;
 }
 #hero-title h3 {
 	color: aliceblue;
@@ -73,14 +81,59 @@
 	font-style: italic;
 }
 #hero-title {
-	text-align: center;
-	height: 10em;
+
+	/* text-align: left; */
+	/* heigh t: 1em; */
+	padding-left: 5em;
+	padding-bottom: 4em;
+}
+button{
+	background-color: transparent;
+	border: .5px solid rgba(204, 38, 38, 0.959);
 }
 #hero-title button {
 	margin: 20px;
-	background-color: white;
-	border: none;
+	background-color: none;
+	border:solid 1px rgba(204, 38, 38, 0.959);
 	padding: 8px;
 	border-radius: 3px;
 	margin: 10px;
+}
+#About-us{
+	height: 960 px;
+	margin-left: 4em;
+	margin-right: 3em;
+}
+#About-us h1{
+	margin-bottom: 1em;
+	color: rgba(204, 38, 38, 0.959);
+	font-size: 42px;
+}
+#About-us p{
+	width: 50%;
+	text-align: justify;
+	line-height: 2.5;
+	color: rgba(0, 0, 0, 0.468);
+	font-size: 18px;
+}
+#Contact{
+	float: right;
+	margin-bottom: 1em;
+	margin-left: 4em;
+	width: 50%;
+	margin-left: 3em;
+
+}
+#Contact h1{
+	margin-bottom: 1em;
+	font-size: 42px;
+
+}
+
+#Contact-Us p{
+	font-size: 18px;
+}
+.input{
+	margin: 10px;
+	padding: 5px;
 }

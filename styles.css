@@ -117,11 +117,9 @@ button{
 	font-size: 18px;
 }
 #Contact{
-	float: right;
 	margin-bottom: 1em;
 	margin-left: 4em;
 	width: 50%;
-	margin-left: 3em;
 
 }
 #Contact h1{
@@ -136,4 +134,7 @@ button{
 .input{
 	margin: 10px;
 	padding: 5px;
+}
+#Contact p{
+	font-weight: 600;
 }

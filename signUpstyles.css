@@ -16,6 +16,11 @@
 #signupWrapper {
 	display: flex;
 	flex-direction: column;
+	background-image: url("images/mountain\ view.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+    background-size: cover;
+
 }
 #nav-bar {
 	display: flex;
@@ -31,11 +36,14 @@
 }
 
 .leftSide {
-	width: 50%;
-	background-image: url("images/thundercloud\ vi.jpg");
+	/* width: 50%; */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     
 }
 
+.nav-link {
+	text-decoration: none;
+	padding-left: 55px;
+}

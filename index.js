@@ -6,11 +6,6 @@ const cardCarousel = ()=>{
         businessAddress: '',
         businessHours: '',
         
-
-
-
-
-
     }
     ;
 }

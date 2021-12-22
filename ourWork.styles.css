@@ -104,19 +104,25 @@
 .top-buttons {
 	padding-top: 3em;
 }
-#Our-Projects {
+#headline-banner {
+	height: 40em;
+}
+#Our-Work {
 	margin: 3em;
 }
-#Our-Projects p {
+#Our-Work p {
 	line-height: 2;
+	font-size: larger;
 }
-.our-projects-title {
+.our-work-title {
 	color: white;
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
-.our-projects-title h1{
-    font-size: 72px;
-    letter-spacing: .2em;
-    margin-top: 55px;;
+.our-work-title h1 {
+	font-size: 82px;
+	margin-top: 105px;
+}
+.our-projects-title h3 {
+	font-size: larger;
 }

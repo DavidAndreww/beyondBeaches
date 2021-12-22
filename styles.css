@@ -9,7 +9,7 @@
 	height: 910px;
 	width: 1400px;
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: center;
 	background-size: cover;
 	background-color: black;
 	opacity: 1;
@@ -23,7 +23,6 @@
 .top-buttons {
 	display: flex;
 	justify-content: center;
-	margin-right: 5em;
 	padding: 2em;
 }
 #join-community {
@@ -47,6 +46,12 @@
 	padding: 5px;
 	border-radius: 5px;
 	color: white;
+}
+#island-directory {
+	color: rgb(30, 172, 124);
+	margin: 2em;
+	padding: 5px;
+	border-radius: 5px;
 }
 #hero-title h1 {
 	color: white;
@@ -139,8 +144,7 @@
 .about-us {
 	color: rgba(204, 38, 38, 0.959);
 	font-size: 42px;
-	margin-left: .7em;
-
+	margin-left: 0.7em;
 }
 #About-us p {
 	width: 50%;
@@ -167,6 +171,7 @@
 	margin-bottom: 5em;
 }
 #Contact {
+	margin-left: 2em;
 	margin-bottom: 1em;
 	width: 50%;
 }

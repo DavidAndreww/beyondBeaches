@@ -16,7 +16,7 @@
 #signupWrapper {
 	display: flex;
 	flex-direction: column;
-	background-image: url('images/pexels-thiago-japyassu-921724.jpeg');
+	background-image: url('images/beach3.jpeg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -40,21 +40,32 @@
 	position: sticky;
 	top: 0;
 }
+.nav-link {
+	text-decoration: none;
+	padding-left: 55px;
+	font-size: 16px;
+}
+#nav-bar button {
+	align-items: center;
+	justify-items: center;
+}
 
+#create-account-form .submit-button {
+	margin-top: 1em;
+	background-color: rgba(30, 172, 125, 0.839);
+	padding: 4px;
+	border-radius: 8px;
+	color: white;
+}
 .leftSide {
 	/* width: 50%; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
 }
+.signup-invitation {
+	color: rgba(247, 191, 70, 0.968);
+	font-size: 18px;
+	margin: 0px 85px 10px;
+}
 
-.nav-link {
-	text-decoration: none;
-	padding-left: 55px;
-}
-#create-account-form .submit-button {
-	margin-top: 1em;
-	background-color: rgba(247, 191, 70, 0.968);
-	padding: 4px;
-	border-radius: 8px;
-}

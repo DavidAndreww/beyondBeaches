@@ -126,3 +126,21 @@
 .our-projects-title h3 {
 	font-size: larger;
 }
+#our-work-volunteer-button{
+    
+        color: white;
+        background-color: rgba(247, 191, 70, 0.968);
+        margin: 2em;
+        padding: 5px;
+        border-radius: 5px;
+    
+}
+#contact-us-button{
+    
+        color: rgba(204, 38, 38, 0.959);
+        background-color: white;
+        margin: 2em;
+        padding: 5px;
+        border-radius: 5px;
+    
+}

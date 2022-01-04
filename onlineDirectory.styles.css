@@ -3,6 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+#online_directory_container{
+	height: 100vh;
+	width: 100%;
+	background-color: aqua;
+}
 .red {
 	color: rgba(204, 38, 38, 0.959);
 }
@@ -38,6 +43,10 @@
 	font-size: 32px;
 	padding-right: 10em;
 }
+#nav-bar h1 {
+	font-size: 32px;
+	padding-right: 10em;
+}
 #nav-bar button {
 	align-items: center;
 	justify-items: center;
@@ -48,7 +57,7 @@
 	font-size: 16px;
 }
 .nav-link #site-title {
-	display: inline-flex;
+	display: flex;
 	padding-left: 25px;
 	height: 50%;
 	width: 100%;
@@ -60,7 +69,7 @@
 }
 #headline-banner {
 	background-image: url('./images/guys\ in\ bar\ for\ BB.jpeg');
-	height: 610px;
+	height: 700px;
 	width: 1400px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -77,4 +86,18 @@
 	justify-content: center;
 	font-size: 72px;
 	padding-top: 95px;
+}
+.menu_header{
+	background-color: rgba(240, 248, 255, 0.678);
+	padding: .5em;
+	border-radius: 8px;
+	margin-bottom: 1em;
+}
+#like_button{
+	margin: .3em;
+	padding: 5px;
+	border-radius: 5px;
+	color: rgba(204, 38, 38, 0.959);
+	background-color: rgba(240, 248, 255, 0.678);
+	border: solid .5px rgba(247, 191, 70, 0.968);
 }

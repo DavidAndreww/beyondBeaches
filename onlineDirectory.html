@@ -30,31 +30,37 @@
 				<button id="login-button" class="red">LOGIN</button>
 			</div>
 			<div id="title-banner"></div>
-			<p class="menu_header" style=" font-size: 42px; font-weight:800; color:rgb(30, 172, 124); margin-top: 55px; letter-spacing: 2;">SEARCH OUR ISLAND DIRECTORY</p>
+			<p
+				class="menu_header"
+				style="
+					font-size: 42px;
+					font-weight: 800;
+					color: rgb(30, 172, 124);
+					margin-top: 55px;
+					letter-spacing: 2;
+				"
+			>
+				SEARCH OUR ISLAND DIRECTORY
+			</p>
 			<!-- <h1 class="directory-title">ONLINE DIRECTORY</h1> -->
 			<button id="like_button" class="food_beverage">FOOD AND BEVERAGE</button>
 			<button id="like_button" class="community">COMMUNITY</button>
 			<button id="like_button" class="live_music">LIVE MUSIC</button>
 			<button id="like_button" class="gardening">GARDENING</button>
-			<button id="like_button" class="sustainability">SUSTAINABILITY </button>
+			<button id="like_button" class="sustainability">SUSTAINABILITY</button>
 			<button id="like_button" class="shopping">SHOPPING</button>
+			<div id="cards_container">
+				<ul class="card"></ul>
+				<ul class="card"></ul>
+				<ul class="card"></ul>
+				<ul class="card"></ul>
+				<ul class="card"></ul>
+			</div>
 
 		</section>
-
-		<!-- ... other HTML ... -->
-
-		<!-- Load React. -->
-		<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-		<script
-			src="https://unpkg.com/react@17/umd/react.development.js"
-			crossorigin
-		></script>
-		<script
-			src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
-			crossorigin
-		></script>
-
-		<!-- Load our React component. -->
-		<script src="like_button.js"></script>
+		<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- Load our React component. -->
+		<script src="cards.js"></script>
 	</body>
 </html>

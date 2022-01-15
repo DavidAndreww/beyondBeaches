@@ -112,7 +112,10 @@
 }
 #Our-Work p {
 	line-height: 2;
-	font-size: larger;
+	color: rgba(0, 0, 0, 0.468);
+	font-size: 18px;
+	line-height: 2.5;
+
 }
 .our-work-title {
 	color: white;
@@ -124,7 +127,7 @@
 	margin-top: 105px;
 }
 .our-projects-title h3 {
-	font-size: larger;
+	font-size: 28;
 }
 #our-work-volunteer-button{
     

@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.red {
+	color: rgba(204, 38, 38, 0.959);
+}
+.green {
+	color: rgb(30, 172, 124);
+}
+.orange {
+	color: rgba(247, 191, 70, 0.968);
+}
+
+#card{
+    height: 18em;
+    width: 16em;
+    border: solid .5px rgba(247, 191, 70, 0.968);
+    border-radius: 5px;
+    display: inline-flex;
+    flex-direction: row;
+margin: .3em;}

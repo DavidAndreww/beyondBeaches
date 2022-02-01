@@ -6,10 +6,10 @@
 
 #headline-banner {
 	background-image: url('./images/gray-and-green-turtle-swimming-on-water-68744.jpg');
-	height: 910px;
+	height: 800px;
 	width: 1400px;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: bottom;
 	background-size: cover;
 	background-color: black;
 	opacity: 1;
@@ -17,7 +17,7 @@
 }
 #hero-title {
 	position: relative;
-	top: 15em;
+	top: 7.5em;
 	align-items: center;
 }
 .top-buttons {
@@ -88,7 +88,7 @@
 	/* z-index: -100; */
 }
 #nav-bar h1 {
-	font-size: 32px;
+	font-size: 30px;
 	padding-right: 10em;
 }
 #nav-bar button {

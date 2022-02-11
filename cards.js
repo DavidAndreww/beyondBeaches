@@ -1,68 +1,85 @@
-//I need to loop venues array and return a card for each object. 
-//this new array of cards needs to be pushed to a container in the dom as innerHTML 
+//I need to loop venues array and return a card for each object.
+//this new array of cards needs to be pushed to a container in the dom as innerHTML
 // var createCard = (venues)=>{
 // 	if (venues.venueId){console.log('hello');
 // 	}
 // }
 // document.getElementByClass('card').innerHTML = venueName
-const body = document.querySelector('body')
+const body = document.querySelector('body');
 console.log(body);
+
 let venues = [
 	{
-		venueName: 'Barefoot Buddha',
+		venueName: 'BAREFOOT BUDDHA',
 		venueId: 0,
 		venueLocation: 'Havensight',
 		venuePhoneNumber: '+1 (340)777-3668',
-		venueCategory: 'EAT/DRINK/<BR>GIFTS',
-		venueBio: '',
-        venueWebsiteUrl:'',
+		venueCategory: 'EAT/DRINK',
+		venueHashtag: '#coffee, #eats, #gifts, #localcrafts',
+		venueBio:
+			'Small vibrant cafe that serves coffees, teas, kombucha, and a wonderful variety of scratch made pastries.',
+		venueWebsiteUrl: 'barefootbuddha.com',
 		venueSchedule: [{ open: '' }, { close: '' }],
 	},
 	{
-		venueName: 'Stir It Up',
+		venueName: 'STIR IT UP',
 		venueId: 1,
 		venueLocation: 'Havensight',
 		venuePhoneNumber: '+1 (340)777-3668',
 		venueCategory: 'EAT/DRINK',
+		venueHashtag: '#coffee, #eats, #gifts, #localcrafts',
 		venueBio:
-		'Small vibrant cafe that serves coffees, teas, kombucha, and a wonderful variety of scratch made pastries.',
-        venueWebsiteUrl:'',
+			'Small vibrant cafe that serves coffees, teas, kombucha, and a wonderful variety of scratch made pastries.',
+		venueWebsiteUrl: 'stiritupvi.com',
 		venueSchedule: [{ open: '' }, { close: '' }],
 	},
 	{
-		venueName: 'Doghouse Pub',
+		venueName: 'DOGHOUSE PUB',
 		venueId: 2,
 		venueLocation: 'Havensight',
 		venuePhoneNumber: '+1 (340)777-3668',
 		venueCategory: 'EAT/DRINK',
-		venueBio: '',
-        venueWebsiteUrl:'',
+		venueHashtag: '#coffee, #eats, #gifts, #localcrafts',
+		venueBio:
+			'Small vibrant cafe that serves coffees, teas, kombucha, and a wonderful variety of scratch made pastries.',
+		venueWebsiteUrl: 'doghousevi.com',
 		venueSchedule: [{ open: '' }, { close: '' }],
 	},
 	{
-		venueName: 'Deli Deck',
+		venueName: 'DELI DECK',
 		venueId: 3,
 		venueLocation: 'Havensight',
 		venuePhoneNumber: '+1 (340)777-3668',
 		venueCategory: 'EAT/DRINK',
-		venueBio: '',
-		venueWebsiteUrl:'',
+		venueHashtag: '#coffee, #eats, #gifts, #localcrafts',
+		venueBio:
+			'Small vibrant cafe that serves coffees, teas, kombucha, and a wonderful variety of scratch made pastries.',
+		venueWebsiteUrl: 'delideckvi.com',
 		venueSchedule: [{ open: '' }, { close: '' }],
 	},
 ];
 
-
-
-  venues.forEach((venue) => {
-body.innerHTML += 
-	`<div id="card">
+venues.forEach((venue) => {
+	body.innerHTML += `<div id="card">
 	<h1 id="cardCategory">${venue.venueCategory}</h1>
-	<h2 id="venueName">${ venue.venueName }</h2>
-	<div id="venueInfo">
-		<p id="" class="venueHashtag"></p>
-		<p id="venueBio"></p>
-		<div id="venueCardLeft"></div>
-		<div id="venueCardRight"></div>
-	</div>	
-</div>`
+	<h2 id="venueName">${venue.venueName}</h2>
+
+	<div class="venueCardBody">
+		<div id="venueInfo">
+		<p id="" class="venueHashtag">${venue.venueHashtag}</p>
+		<p id="venueBio">${venue.venueBio}</p>
+		</div>
+<div class="cardButtons">
+<div id="venueCardLeft"> 
+		<button>menu</button>
+		<p>location</p>
+		<button>contact</button>
+		</div>
+
+		<div id="venueCardRight">
+		<button>website</button>
+		<p>hours</p>
+		</div></div>
+		
+</div>`;
 });

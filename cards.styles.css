@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 .red {
-	color: rgba(204, 38, 38, 0.959);
+	color: (233, 12, 12, 0.959);
 }
 .green {
 	color: rgb(30, 172, 124);
@@ -13,11 +13,82 @@
 	color: rgba(247, 191, 70, 0.968);
 }
 
-#card{
-    height: 18em;
-    width: 16em;
-    border: solid .5px rgba(247, 191, 70, 0.968);
-    border-radius: 5px;
-    display: inline-flex;
-    flex-direction: row;
-margin: .3em;}
+#card {
+	height: 20em;
+	width: 18em;
+	border: solid 0.5px rgba(247, 191, 70, 0.968);
+	border-radius: 5px;
+	display: inline-flex;
+	flex-direction: column;
+    align-items: center;
+	margin: 0.3em;
+	background-image: url('./images/guys\ in\ bar\ for\ BB.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    filter: contrast();
+}
+
+#venueName {
+	justify-items: center;
+	margin: 0.5em;
+	color: rgba(233, 12, 12, 0.959);
+}
+#cardCategory {
+	color: 2BEE56;
+	margin-left: 0.3em;
+    margin-top: .5em;
+    float: left;
+    width: 100%;
+    font-size: large;
+}
+#venueBio {
+	color: 2BEE56;
+	margin: 0.5em;
+    font-size: 13px;
+    text-align: justify;
+}
+.venueHashtag {
+	font-size: 16px;
+	color: FCAC15;
+	margin: 0.5em;
+	justify-content: center;
+}
+.venueCardBody {
+	background-color: rgba(0, 0, 0, 0.5);
+	border: transparent;
+	border-radius: 5px;
+	width: 85%;
+	height: 65%;
+	margin: 0.3em;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgba(233, 12, 12, 0.959);
+    color: 2BEE56;
+    padding: .2em;
+    font-size: 14px;
+    border: transparent;
+    border-radius: 13px;
+    width: 5em;
+}
+#venueCardLeft{
+    width: 50%;
+    float: left;
+    color: 2BEE56;
+}
+#venueCardRight{
+    width: 50%;
+    float: right;
+    color: 2BEE56;
+
+}
+.cardButtons{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    align-content: center;
+}

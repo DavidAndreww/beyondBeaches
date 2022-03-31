@@ -21,43 +21,50 @@
 	align-items: center;
 }
 .top-buttons {
-	display: flex;
-	justify-content: center;
-	padding: 2em;
+	background-color: transparent;
+	border: none;
+	position: relative;
+	left: -.75em;
+	top: -2.5em;
 }
 #join-community {
 	justify-self: auto;
 	color: white;
-	background-color: rgb(30, 172, 124);
+	background-color: transparent;
+	border:rgba(247, 191, 70, 0.968)solid 1px;
 	margin: 2em;
 	padding: 5px;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 }
 #login-button {
-	color: white;
-	background-color: rgba(247, 191, 70, 0.968);
+	color: rgba(204, 38, 38, 0.959);
+	background-color: transparent;
+	border: rgb(30, 172, 124) solid 1px;
 	margin: 2em;
 	padding: 5px;
-	border-radius: 5px;
+	/* border-radius: 5px; */
 }
 #donate-button {
 	background-color: rgba(204, 38, 38, 0.959);
-	margin: 2em;
-	padding: 5px;
+	height: 35px;
+	margin-bottom: 1em;
+	/* padding: 5px; */
 	border-radius: 5px;
 	color: white;
 }
 #island-directory {
 	color: rgb(30, 172, 124);
+	background-color: transparent;
 	margin: 2em;
 	padding: 5px;
 	border-radius: 5px;
+	border:rgba(204, 38, 38, 0.959)solid 1px;
 }
 #hero-title h1 {
 	color: white;
 }
 .red {
-	color: (233, 12, 12, 0.959);
+	color: rgba(233, 12, 12, 0.959);
 }
 .green {
 	color: rgb(30, 172, 124);
@@ -73,39 +80,42 @@
 	width: 100%;
 	/* top: 0; */
 }
+.logo{
+	background-image: url(./images/BB\ Logo.jpg);
+	height: 150px;
+	width: 300px;
+	position: relative;
+	top: -3.5em;
+}
 
 #nav-bar {
 	display: flex;
-	justify-content: flex-start;
-	padding-top: 2em;
-	padding-right: 2em;
+	/* justify-content: flex-start; */
+	padding-top: 2.5em;
+	/* padding-right: 2em; */
 	padding-left: 2em;
 	background-color: white;
-	height: 5em;
+	height: 8.5em;
 	width: 100%;
 	position: sticky;
 	top: 0;
-	/* z-index: -100; */
 }
-#nav-bar h1 {
-	font-size: 30px;
-	padding-right: 10em;
-}
-#nav-bar button {
-	align-items: center;
-	justify-items: center;
-}
+
+
 .nav-link {
 	text-decoration: none;
-	padding-left: 55px;
+	/* padding-left: 55px; */
 	font-size: 16px;
+	float: right;
 }
 .nav-link #site-title {
 	display: flex;
 	padding-left: 25px;
 	height: 50%;
 	width: 100%;
-	text-align: center;
+}
+ a{
+	float: right;
 }
 .top-buttons {
 	padding-top: 3em;
@@ -121,8 +131,7 @@
 	font-style: italic;
 }
 #hero-title {
-	/* text-align: left; */
-	/* heigh t: 1em; */
+	/* float: right; */
 	padding-left: 5em;
 	padding-bottom: 4em;
 }

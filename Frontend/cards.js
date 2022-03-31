@@ -57,11 +57,58 @@ let venues = [
 		venueWebsiteUrl: 'delideckvi.com',
 		venueSchedule: [{ open: '' }, { close: '' }],
 	},
+	{
+		venueName: 'BAREFOOT BUDDHA',
+		venueId: 0,
+		venueLocation: 'Havensight',
+		venuePhoneNumber: '+1 (340)777-3668',
+		venueCategory: 'EAT/DRINK',
+		venueHashtag: '#coffee, #eats, #gifts, #localcrafts',
+		venueBio:
+			'Small vibrant cafe that serves coffees, teas, kombucha, and a wonderful variety of scratch made pastries.',
+		venueWebsiteUrl: 'barefootbuddha.com',
+		venueSchedule: [{ open: '' }, { close: '' }],
+	},
+	{
+		venueName: 'STIR IT UP',
+		venueId: 1,
+		venueLocation: 'Havensight',
+		venuePhoneNumber: '+1 (340)777-3668',
+		venueCategory: 'EAT/DRINK',
+		venueHashtag: '#coffee, #eats, #gifts, #localcrafts',
+		venueBio:
+			'Small vibrant cafe that serves coffees, teas, kombucha, and a wonderful variety of scratch made pastries.',
+		venueWebsiteUrl: 'stiritupvi.com',
+		venueSchedule: [{ open: '' }, { close: '' }],
+	},
+	{
+		venueName: 'DOGHOUSE PUB',
+		venueId: 2,
+		venueLocation: 'Havensight',
+		venuePhoneNumber: '+1 (340)777-3668',
+		venueCategory: 'EAT/DRINK',
+		venueHashtag: '#coffee, #eats, #gifts, #localcrafts',
+		venueBio:
+			'Small vibrant cafe that serves coffees, teas, kombucha, and a wonderful variety of scratch made pastries.',
+		venueWebsiteUrl: 'doghousevi.com',
+		venueSchedule: [{ open: '' }, { close: '' }],
+	},
+	{
+		venueName: 'DELI DECK',
+		venueId: 3,
+		venueLocation: 'Havensight',
+		venuePhoneNumber: '+1 (340)777-3668',
+		venueCategory: 'EAT/DRINK',
+		venueHashtag: '#coffee, #eats, #gifts, #localcrafts',
+		venueBio:
+			'Small vibrant cafe that serves coffees, teas, kombucha, and a wonderful variety of scratch made pastries.',
+		venueWebsiteUrl: 'delideckvi.com',
+		venueSchedule: [{ open: '' }, { close: '' }],
+	},
 ];
 
 venues.forEach((venue) => {
 	body.innerHTML += `<div id="card">
-	<h1 id="cardCategory">${venue.venueCategory}</h1>
 	<h2 id="venueName">${venue.venueName}</h2>
 
 	<div class="venueCardBody">

@@ -12,7 +12,7 @@
 	background-position: center bottom;
 	background-size: cover;
 	opacity: 1;
-	margin-bottom: 4em;
+	/* margin-bottom: 4em; */
 }
 #hero-title {
 	position: relative;
@@ -81,6 +81,13 @@
 	top: 0;
 	/* z-index: -100; */
 }
+.logo{
+	background-image: url(./images/BB\ Logo.jpg);
+	height: 150px;
+	width: 300px;
+	position: relative;
+	top: -3.5em;
+}
 #nav-bar h1 {
 	font-size: 32px;
 	padding-right: 10em;
@@ -128,7 +135,24 @@
 }
 .our-work-title h1 {
 	font-size: 82px;
-	margin-top: 150px;
+	margin-top: 250px;
+	letter-spacing: normal;
+
+}
+.Divider{
+	height: 14em;
+	width: 100%;
+	background-color: rgb(30, 172, 124);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.Divider-Text{
+	color: white;
+	font-size: 32px;
+	margin-left: 50px;
+	font-style: italic;
 }
 .our-projects-title h3 {
 	font-size: 28;

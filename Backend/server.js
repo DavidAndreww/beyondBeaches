@@ -2,7 +2,7 @@
 //Via "routes" from the API. Those routes will be defined below  using express.js initialized as "app" variable.
 
 const express = require('express'); //brings in express to our entry file begins building server
-const connectDB = require('./Backend/config/db'); //brings in logic from db.js
+// const connectDB = require('../Backend/config/db'); //brings in logic from db.js
 
 const app = express(); //initializes app variable with express
 

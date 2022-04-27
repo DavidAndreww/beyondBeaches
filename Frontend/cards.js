@@ -1,10 +1,6 @@
 //I need to loop venues array and return a card for each object.
 //this new array of cards needs to be pushed to a container in the dom as innerHTML
-// var createCard = (venues)=>{
-// 	if (venues.venueId){console.log('hello');
-// 	}
-// }
-// document.getElementByClass('card').innerHTML = venueName
+
 const body = document.querySelector('body');
 console.log(body);
 
@@ -126,7 +122,11 @@ venues.forEach((venue) => {
 		<div id="venueCardRight">
 		<button>website</button>
 		<p>hours</p>
-		</div></div>
+		</div>
+		</div>
 		
-</div>`;
+		
+</div>
+
+`;
 });

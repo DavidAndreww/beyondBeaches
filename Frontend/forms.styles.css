@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.red {
+	color: rgba(233, 12, 12, 0.959);
+}
+.green {
+	color: rgb(30, 172, 124);
+}
+.orange {
+	color: rgba(247, 191, 70, 0.968);
+}
+#header {
+	display: flex;
+	justify-content: space-around;
+	/* position: fixed; */
+	width: 100%;
+	/* top: 0; */
+}
+.logo {
+	background-image: url(./images/BB\ Logo.jpg);
+	height: 150px;
+	width: 300px;
+	position: relative;
+	top: -3.5em;
+}
+#donate-button {
+	background-color: rgba(204, 38, 38, 0.959);
+	height: 35px;
+	margin-bottom: 1em;
+	/* padding: 5px; */
+	border-radius: 5px;
+	color: white;
+	border: none;
+}
+
+#nav-bar {
+	display: flex;
+	padding-top: 2.5em;
+	padding-left: 2em;
+	background-color: white;
+	height: 8.5em;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+#nav-link-container {
+	width: 75%;
+	margin-left: 2em;
+}
+.nav-link {
+	text-decoration: none;
+	font-size: 16px;
+}
+

@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.styles.css">
+    <title>vendorSignupForm</title>
+    <nav id="nav-bar">
+        <div class="logo-container">
+            <div class="logo"></div>
+        </div>
+        <!-- <h1 id="site-title">
+            <span class="red">Beyond</span> <span class="orange">Beaches</span>
+            <span class="green">V.I.</span>
+        </h1> -->
+        <div id="nav-link-container">
+            <a class="nav-link red" href="index.html#header">Home</a>
+            <a class="nav-link orange" href="index.html#About-Us-Wrapper">About</a>
+            <a class="nav-link green" href="index.html#Contact">Contact</a>
+            <a class="nav-link red" href="#blog">Blog</a>
+            <a class="nav-link orange" href="ourWork.html">Our Work</a>
+            
+        </div>
+        <button id="donate-button">DONATE</button>
+    </nav>
+</head>
+<body>
+    <form action="" style="width: 600px">
+        <div class="form-group">
+            <label for="first-name"></label>
+            <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                class="form-control"
+                placeholder="First Name"
+                required
+            />
+            <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                class="form-control"
+                placeholder="Last Name"
+                required
+            />
+        </div>
+        <br />
+        <div class="form-group">
+            <label for="business-name"></label>
+            <input
+                type="text"
+                name="business-name"
+                id="business-name"
+                class="form-control"
+                placeholder="Business Name"
+                required
+            />
+        </div>
+        <br />
+        <label for="email"></label>
+        <input
+            type="email"
+            name="email"
+            id="email"
+            class="form-control"
+            placeholder="Email"
+            required
+        /><br />
+       
+        <p>What type of business do you operate</p><br><br>
+        <input type="radio" id="food and beverage" name="food_and_beverage" value="Food and Beverage">
+<label for="food and beverage">Food and Beverage</label><br>
+<input type="radio" id="tours or charters" name="tours_or_charters" value="Tours or Charters">
+<label for="tours or charters">Tours or Charters</label><br>
+<input type="radio" id="other" name="other" value="other">
+<label for="other">Other</label>
+        <br />
+        <textarea
+        name="Description"
+        id="venue-description"
+        placeholder="Describe Your Business"
+        cols="40"
+        rows="10"
+        class="form-control"
+    ></textarea
+    
+    >
+        <button>Submit</button>
+    </form>
+</body>
+</html>

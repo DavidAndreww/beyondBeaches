@@ -30,7 +30,8 @@
 	background-color: rgba(204, 38, 38, 0.959);
 	height: 35px;
 	margin-bottom: 1em;
-	/* padding: 5px; */
+	margin-right: 1em;
+	padding: 5px;
 	border-radius: 5px;
 	color: white;
 	border: none;
@@ -47,6 +48,10 @@
 	top: 0;
 	z-index: 10;
 }
+#nav-bar button {
+	align-items: center;
+	justify-items: center;
+}
 #nav-link-container {
 	width: 75%;
 	margin-left: 2em;
@@ -55,4 +60,42 @@
 	text-decoration: none;
 	font-size: 16px;
 }
+a {
+	float: right;
+	margin-right: 25px;
+}
+.nav-link #site-title {
+	display: flex;
+	padding-left: 25px;
+	height: 50%;
+	width: 100%;
+	text-align: center;
+}
+.form-group {
+	margin-left: 25px;
+}
+body {
+	background-image: url('./images/beach3.jpeg');
+	height: 800px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: black;
+	opacity: 1;
+	margin-bottom: 4em;
 
+	text-align: center;
+}
+    form {
+	display: inline-block;
+}
+form p{
+    color: white;
+    font-size: 25px;
+}
+input{
+    width: 250px;
+    margin: .5em;
+    padding: 5px;
+}

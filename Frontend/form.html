@@ -25,7 +25,7 @@
     </nav>
 </head>
 <body>
-    <form action="" style="width: 600px">
+    <form >
         <div class="form-group">
             <label for="first-name"></label>
             <input
@@ -36,6 +36,7 @@
                 placeholder="First Name"
                 required
             />
+            <br>
             <input
                 type="text"
                 name="last-name"
@@ -45,7 +46,6 @@
                 required
             />
         </div>
-        <br />
         <div class="form-group">
             <label for="business-name"></label>
             <input
@@ -57,7 +57,7 @@
                 required
             />
         </div>
-        <br />
+        <div class="form-group">
         <label for="email"></label>
         <input
             type="email"
@@ -67,15 +67,17 @@
             placeholder="Email"
             required
         /><br />
+        <br>
        
-        <p>What type of business do you operate</p><br><br>
-        <input type="radio" id="food and beverage" name="food_and_beverage" value="Food and Beverage">
-<label for="food and beverage">Food and Beverage</label><br>
+        <p>What Type Of Business Do You Operate?</p><br>
+        <input type="radio" id="food and beverage" name="food_and_beverage" value="Food and Beverage" >
+<label for="food and beverage" style="color: white">Food and Beverage</label><br>
 <input type="radio" id="tours or charters" name="tours_or_charters" value="Tours or Charters">
-<label for="tours or charters">Tours or Charters</label><br>
+<label for="tours or charters " style="color: white">Tours or Charters</label><br>
 <input type="radio" id="other" name="other" value="other">
-<label for="other">Other</label>
+<label for="other" style="color: white">Other</label>
         <br />
+        <br>
         <textarea
         name="Description"
         id="venue-description"
@@ -86,7 +88,9 @@
     ></textarea
     
     >
-        <button>Submit</button>
+<br>
+        <button style="background-color:rgba(233, 12, 12, 0.959); color: white; margin-top: 10px; padding: 5px;border: none;">Submit</button>
+    </div>
     </form>
 </body>
 </html>

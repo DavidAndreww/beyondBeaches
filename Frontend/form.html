@@ -1,96 +1,164 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="forms.styles.css">
-    <title>vendorSignupForm</title>
-    <nav id="nav-bar">
-        <div class="logo-container">
-            <div class="logo"></div>
-        </div>
-        <!-- <h1 id="site-title">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="forms.styles.css" />
+		<title>vendorSignupForm</title>
+		<nav id="nav-bar">
+			<div class="logo-container">
+				<div class="logo"></div>
+			</div>
+			<!-- <h1 id="site-title">
             <span class="red">Beyond</span> <span class="orange">Beaches</span>
             <span class="green">V.I.</span>
         </h1> -->
-        <div id="nav-link-container">
-            <a class="nav-link red" href="index.html#header">Home</a>
-            <a class="nav-link orange" href="index.html#About-Us-Wrapper">About</a>
-            <a class="nav-link green" href="index.html#Contact">Contact</a>
-            <a class="nav-link red" href="#blog">Blog</a>
-            <a class="nav-link orange" href="ourWork.html">Our Work</a>
-            
-        </div>
-        <button id="donate-button">DONATE</button>
-    </nav>
-</head>
-<body>
-    <form >
-        <div class="form-group">
-            <label for="first-name"></label>
-            <input
-                type="text"
-                name="first-name"
-                id="first-name"
-                class="form-control"
-                placeholder="First Name"
-                required
-            />
-            <br>
-            <input
-                type="text"
-                name="last-name"
-                id="last-name"
-                class="form-control"
-                placeholder="Last Name"
-                required
-            />
-        </div>
-        <div class="form-group">
-            <label for="business-name"></label>
-            <input
-                type="text"
-                name="business-name"
-                id="business-name"
-                class="form-control"
-                placeholder="Business Name"
-                required
-            />
-        </div>
-        <div class="form-group">
-        <label for="email"></label>
-        <input
-            type="email"
-            name="email"
-            id="email"
-            class="form-control"
-            placeholder="Email"
-            required
-        /><br />
-        <br>
-       
-        <p>What Type Of Business Do You Operate?</p><br>
-        <input type="radio" id="food and beverage" name="food_and_beverage" value="Food and Beverage" >
-<label for="food and beverage" style="color: white">Food and Beverage</label><br>
-<input type="radio" id="tours or charters" name="tours_or_charters" value="Tours or Charters">
-<label for="tours or charters " style="color: white">Tours or Charters</label><br>
-<input type="radio" id="other" name="other" value="other">
-<label for="other" style="color: white">Other</label>
-        <br />
-        <br>
-        <textarea
-        name="Description"
-        id="venue-description"
-        placeholder="Describe Your Business"
-        cols="40"
-        rows="10"
-        class="form-control"
-    ></textarea
-    
-    >
-<br>
-        <button style="background-color:rgba(233, 12, 12, 0.959); color: white; margin-top: 10px; padding: 5px;border: none;">Submit</button>
-    </div>
-    </form>
-</body>
+			<div id="nav-link-container">
+				<a class="nav-link red" href="index.html#header">Home</a>
+				<a class="nav-link orange" href="index.html#About-Us-Wrapper">About</a>
+				<a class="nav-link green" href="index.html#Contact">Contact</a>
+				<a class="nav-link red" href="#blog">Blog</a>
+				<a class="nav-link orange" href="ourWork.html">Our Work</a>
+			</div>
+			<button id="donate-button">DONATE</button>
+		</nav>
+	</head>
+	<br /><br />
+	<body>
+		<div id="main">
+			<section id="signupLeft">
+				<div id="signupHead">
+					<p>Sign up</p>
+					<section id="signupRight">
+						<h1>
+							SIGN UP AND BUILD YOUR BUSINESS' PROFILE TO SHARE WITH THE WORLD
+							<br /><br /><h2>BeyondBeaches supports <br />
+							local businesses <br />
+							sustainable practices, <br />
+							and is <br />dedicated to the culture of these islands. <br />
+							Join Us!</h2>
+						</h1>
+						<p></p>
+					</section>
+				</div>
+				<form>
+					<div class="form-group">
+						<label for="first-name"></label>
+						<input
+							type="text"
+							name="first-name"
+							id="first-name"
+							class="form-control"
+							placeholder="First Name"
+							style="background-color: transparent"
+							required
+						/>
+						<br />
+						<input
+							type="text"
+							name="last-name"
+							id="last-name"
+							class="form-control"
+							placeholder="Last Name"
+							style="background-color: transparent"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<label for="business-name"></label>
+						<input
+							type="text"
+							name="business-name"
+							id="business-name"
+							class="form-control"
+							placeholder="Business Name"
+							style="background-color: transparent; color: white"
+							required
+						/>
+					</div>
+					<div class="form-group">
+						<label for="email"></label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							class="form-control"
+							placeholder="Email"
+							style="background-color: transparent"
+							required
+						/><br />
+						<label for="url"></label>
+						<input
+							type="text"
+							name="website address"
+							class="form-control"
+							placeholder="Website Address"
+							style="background-color: transparent"
+						/>
+
+						<br />
+
+						<p>What Type Of Business Do You Operate?</p>
+						<br />
+						<input
+							type="radio"
+							id="food and beverage"
+							name="food_and_beverage"
+							value="Food and Beverage"
+						/>
+						<label for="food and beverage" style="color: white; font-size: 20px"
+							>Food and Beverage</label
+						><br />
+						<input
+							type="radio"
+							id="tours or charters"
+							name="tours_or_charters"
+							value="Tours or Charters"
+						/>
+						<label
+							for="tours or charters "
+							style="color: white; font-size: 20px"
+							>Tours or Charters</label
+						><br />
+
+						<input
+							type="radio"
+							id="cultural organization"
+                            name="cultural_organization"
+							value="cultural organization"
+						/><label
+							for="cultural organization"
+							style="color: white; font-size: 20ox"
+							>Cultural Organization</label
+						><br />
+						<input type="radio" id="other" name="other" value="other" />
+						<label for="other" style="color: white; font-size: 20px"
+							>Other</label
+						>
+						<br />
+
+						<br />
+
+						<br />
+						<button
+							style="
+								background-color: rgb(30, 172, 124);
+								color: white;
+								margin-top: 10px;
+								padding: 5px;
+								border: 0.5px solid rgba(204, 38, 38, 0.959);
+								border-radius: 8px;
+								width: 150px;
+								height: 30px;
+								padding: 5px;
+								font-size: 18px;
+							"
+						>
+							Join Us Now!
+						</button>
+					</div>
+				</form>
+			</section>
+		</div>
+	</body>
 </html>

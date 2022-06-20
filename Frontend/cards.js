@@ -122,7 +122,10 @@ venues.forEach((venue) => {
 		<div id="venueCardRight">
 		<button>website</button>
 		<p>hours</p>
+		
 		</div>
+		<div className="social"><i class="fa-brands fa-facebook"></i>
+		<i class="fab fa-instagram"></i></div>
 		</div>
 		
 		

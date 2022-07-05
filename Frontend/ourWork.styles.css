@@ -146,7 +146,7 @@ a {
 }
 .Divider{
 	height: 14em;
-	width: 100%;
+	width: 1400px;
 	background-color: rgb(30, 172, 124);
 	display: flex;
 	justify-content: center;
@@ -162,6 +162,10 @@ a {
 .our-projects-title h3 {
 	font-size: 28;
 	margin-bottom: 25px;
+}
+.work-photo{
+	height: 75em;
+	width: 1400px;
 }
 #our-work-volunteer-button{
     

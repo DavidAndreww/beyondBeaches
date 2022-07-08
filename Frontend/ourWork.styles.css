@@ -123,14 +123,15 @@ a {
 	margin: 3em;
 }
 #Our-Work h1{
-	margin-top: 55px;
-	margin-bottom: 55px;
+	margin: 1.5em 1em;
+
 }
 #Our-Work p {
 	line-height: 2;
 	color: rgba(0, 0, 0, 0.6);
 	font-size: 20px;
 	line-height: 2.5;
+	margin: 2em;
 
 }
 .our-work-title {
@@ -164,7 +165,8 @@ a {
 	margin-bottom: 25px;
 }
 .work-photo{
-	height: 75em;
+	
+	height: 910px;
 	width: 1400px;
 }
 #our-work-volunteer-button{

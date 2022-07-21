@@ -89,7 +89,7 @@
 	position: relative;
 	top: -3.5em;
 }
-.nav-left{
+.nav-left {
 	/* display: flex; */
 }
 #nav-bar {
@@ -111,7 +111,6 @@
 .nav-link {
 	text-decoration: none;
 	font-size: 16px;
-	
 }
 .nav-link #site-title {
 	/* display: flex; */
@@ -156,7 +155,7 @@ a {
 #About-Us {
 	height: 960 px;
 	margin-left: 2em;
-	/* display: flex; */
+	display: flex;
 }
 .About-us {
 	color: rgba(233, 12, 12, 0.959);
@@ -171,6 +170,12 @@ a {
 	color: rgba(0, 0, 0, 0.468);
 	font-size: 18px;
 	/* margin-left: 2em; */
+}
+#About-us-media {
+	width: 50%;
+	/* height: 500px; */
+	padding: 3em;
+	height: 100%;
 }
 #Our-Work {
 	color: white;

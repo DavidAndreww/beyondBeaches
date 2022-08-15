@@ -90,7 +90,7 @@
 	top: -3.5em;
 }
 .nav-left {
-	/* display: flex; */
+	display: flex;
 }
 #nav-bar {
 	display: flex;
@@ -143,6 +143,7 @@ a {
 	padding-bottom: 4em;
 }
 
+
 #hero-title button {
 	margin: 20px;
 	background-color: none;
@@ -151,11 +152,19 @@ a {
 	border-radius: 3px;
 	margin: 10px;
 }
+/* #About-Us-Wrapper{
+	margin-top: 35em;
+	margin-bottom: 35em;
+} */
 
 #About-Us {
 	height: 960 px;
 	margin-left: 2em;
 	display: flex;
+}
+.About-Us-Wrapper{
+	display: flex;
+	flex-direction: row;
 }
 .About-us {
 	color: rgba(233, 12, 12, 0.959);
@@ -164,19 +173,14 @@ a {
 }
 
 #About-us p {
-	width: 50%;
+	/* width: 50%; */
 	text-align: justify;
 	line-height: 2.5;
 	color: rgba(0, 0, 0, 0.468);
 	font-size: 18px;
-	/* margin-left: 2em; */
+	margin-left: 2em;
 }
-#About-us-media {
-	width: 50%;
-	/* height: 500px; */
-	padding: 3em;
-	height: 100%;
-}
+
 #Our-Work {
 	color: white;
 	background-color: rgb(30, 172, 124);

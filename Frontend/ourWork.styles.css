@@ -152,6 +152,7 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 2em;
 
 }
 .Divider-Text{
@@ -185,5 +186,7 @@ a {
         margin: 2em;
         padding: 5px;
         border-radius: 5px;
+		
+		
     
 }

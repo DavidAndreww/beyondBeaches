@@ -115,18 +115,21 @@ venues.forEach((venue) => {
 <div class="cardButtons">
 <div id="venueCardLeft"> 
 		<button>menu</button>
-		<p>location</p>
+		<br /><br />
+		
 		<button>contact</button>
 		</div>
 
 		<div id="venueCardRight">
 		<button>website</button>
-		<p>hours</p>
+		
 		
 		</div>
 		<div className="social"><i class="fa-brands fa-facebook"></i>
 		<i class="fab fa-instagram"></i></div>
 		</div>
+		<p>location</p>
+		<p>hours</p>
 		
 		
 </div>

@@ -68,8 +68,10 @@
 	/* top: 0; */
 }
 #nav-link-container {
-	width: 75%;
-	margin-left: 2em;
+	margin-left: 3em;	
+	display: flex;
+	justify-content: left;
+
 }
 
 #nav-bar {
@@ -77,11 +79,12 @@
 	padding-top: 2.5em;
 	padding-left: 2em;
 	background-color: white;
-	height: 8.5em;
+	height: 8.6em;
 	width: 100%;
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	justify-content: space-between;
 }
 .logo{
 	background-image: url(./images/BB\ Logo.jpg);
@@ -94,14 +97,16 @@
 	font-size: 32px;
 	padding-right: 10em;
 }
-#nav-bar button {
+/* #nav-bar button {
 	align-items: center;
 	justify-items: center;
-}
+} */
 .nav-link {
 	text-decoration: none;
-	padding-left: 55px;
 	font-size: 16px;
+	justify-content: space-between;
+	margin-left: 3em;
+	margin-right: 3em;
 }
 .nav-link #site-title {
 	display: flex;
@@ -110,9 +115,17 @@
 	width: 100%;
 	text-align: center;
 }
-a {
-	float: right;
+#donate-button {
+	background-color: rgba(204, 38, 38, 0.959);
+	height: 35px;
+	margin-bottom: 1em;
+	border-radius: 5px;
+	color: white;
+	border: none;
 }
+/* a {
+	float: right;
+} */
 .top-buttons {
 	padding-top: 3em;
 }
@@ -167,7 +180,7 @@ a {
 }
 .work-photo{
 	
-	height: 910px;
+	height: 800px;
 	width: 1400px;
 }
 #our-work-volunteer-button{

@@ -7,7 +7,7 @@
 #headline-banner {
 	background-image: url('./images/gray-and-green-turtle-swimming-on-water-68744.jpg');
 	height: 800px;
-	width: 1400px;
+	width: 100%;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	background-size: cover;
@@ -54,14 +54,25 @@
 	border: none;
 }
 #island-directory {
-	color: rgb(30, 172, 124);
-	background-color: transparent;
+	color: white;
+	background-color: rgba(204, 38, 38, 0.959);
 	margin: 2em;
-	padding: 5px;
+	padding: 1em;
 	border-radius: 5px;
 	border: rgba(204, 38, 38, 0.959) solid 1px;
+	text-decoration: none;
 }
-
+#vendorSignUpForm {
+	height: 8px;
+	width: 15px;
+	background-color: rgb(30, 172, 124);
+	color: white;
+	text-decoration: none;
+	margin: 2em;
+	height: fit-content;
+	padding: 1em;
+	border-radius: 5px;
+}
 #hero-title h1 {
 	color: white;
 }
@@ -88,6 +99,7 @@
 	width: 300px;
 	position: relative;
 	top: -3.5em;
+	justify-self: start;
 }
 .nav-left {
 	display: flex;
@@ -102,7 +114,7 @@
 	position: sticky;
 	top: 0;
 	z-index: 10;
-	justify-content: end;
+	justify-content: space-between;
 }
 #nav-link-container {
 	margin-left: 3em;
@@ -118,9 +130,13 @@
 	height: 50%;
 	width: 100%;
 }
+
 a {
-	/* float: right; */
+justify-content: space-around;
+margin-right: 3em;
+font-size: 22px;
 }
+
 #donate-button {
 	margin-right: 3em;
 }
@@ -143,7 +159,6 @@ a {
 	padding-bottom: 4em;
 }
 
-
 #hero-title button {
 	margin: 20px;
 	background-color: none;
@@ -156,20 +171,26 @@ a {
 	margin-top: 35em;
 	margin-bottom: 35em;
 } */
+.contact-image {
+	height: 55em;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url('images/recycleposterman.jpeg');
+}
 
 #About-Us {
 	height: 960 px;
 	margin-left: 2em;
-	display: flex;
+	display: block;
 }
-.About-Us-Wrapper{
+.About-Us-Wrapper {
 	display: flex;
 	flex-direction: row;
 }
 .About-us {
-	color: rgba(233, 12, 12, 0.959);
-	font-size: 42px;
-	margin-left: 0.7em;
+	color: rgb(30, 172, 124);
+	font-size: 62px;
 }
 
 #About-us p {
@@ -178,7 +199,7 @@ a {
 	line-height: 2.5;
 	color: rgba(0, 0, 0, 0.468);
 	font-size: 18px;
-	margin-left: 2em;
+	/* margin: 2em; */
 }
 
 #Our-Work {
@@ -189,18 +210,23 @@ a {
 }
 
 #image-div {
-	background-image: url('./images/carnaval\ ladies.jpg');
+	background-image: url('./images/ruinstjohn.jpeg');
 	width: auto;
-	height: 700px;
+	height: 800px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	margin-top: 4em;
 	margin-bottom: 5em;
+}
+.contact-container {
+	display: flex;
+	justify-content: space-between;
 }
 #Contact {
 	margin-left: 2em;
 	margin-bottom: 1em;
-	width: 50%;
+	width: 100%;
 }
 #Contact h1 {
 	font-size: 42px;
@@ -212,11 +238,4 @@ a {
 #Contact p {
 	font-weight: 600;
 }
-#vendorSignUpForm {
-	height: 8px;
-	width: 15px;
-	background-color: none;
-	border-color: rgba(204, 38, 38, 0.959);
-	text-decoration: none;
-	margin: 10px;
-}
+

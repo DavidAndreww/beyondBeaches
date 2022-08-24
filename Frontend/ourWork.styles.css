@@ -7,7 +7,7 @@
 #headline-banner {
 	background-image: url('./images/young\ man\ in\ forest.jpeg');
 	height: 910px;
-	width: 1400px;
+	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-size: cover;
@@ -77,13 +77,14 @@
 	padding-top: 2.5em;
 	padding-left: 2em;
 	background-color: white;
-	height: 8.5em;
+	height: 8.6em;
 	width: 100%;
 	position: sticky;
 	top: 0;
 	z-index: 10;
+	justify-content: space-around;
 }
-.logo{
+.logo {
 	background-image: url(./images/BB\ Logo.jpg);
 	height: 150px;
 	width: 300px;
@@ -122,9 +123,8 @@ a {
 #Our-Work {
 	margin: 3em;
 }
-#Our-Work h1{
+#Our-Work h1 {
 	margin: 1.5em 1em;
-
 }
 #Our-Work p {
 	line-height: 2;
@@ -132,7 +132,6 @@ a {
 	font-size: 20px;
 	line-height: 2.5;
 	margin: 2em;
-
 }
 .our-work-title {
 	color: white;
@@ -143,19 +142,17 @@ a {
 	font-size: 82px;
 	margin-top: 250px;
 	letter-spacing: normal;
-
 }
-.Divider{
+.Divider {
 	height: 14em;
-	width: 1400px;
+	width: 100%;
 	background-color: rgb(30, 172, 124);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 2em;
-
 }
-.Divider-Text{
+.Divider-Text {
 	color: white;
 	font-size: 32px;
 	margin-left: 50px;
@@ -165,28 +162,21 @@ a {
 	font-size: 28;
 	margin-bottom: 25px;
 }
-.work-photo{
-	
+.work-photo {
 	height: 910px;
-	width: 1400px;
+	width: 100%;
 }
-#our-work-volunteer-button{
-    
-        color: white;
-        background-color: rgba(247, 191, 70, 0.968);
-        margin: 2em;
-        padding: 5px;
-        border-radius: 5px;
-    
+#our-work-volunteer-button {
+	color: white;
+	background-color: rgba(247, 191, 70, 0.968);
+	margin: 2em;
+	padding: 5px;
+	border-radius: 5px;
 }
-#contact-us-button{
-    
-        color: rgba(233, 12, 12, 0.959);
-        background-color: none;
-        margin: 2em;
-        padding: 5px;
-        border-radius: 5px;
-		
-		
-    
+#contact-us-button {
+	color: rgba(233, 12, 12, 0.959);
+	background-color: none;
+	margin: 2em;
+	padding: 5px;
+	border-radius: 5px;
 }

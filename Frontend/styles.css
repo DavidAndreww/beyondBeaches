@@ -62,6 +62,10 @@
 	border: rgba(204, 38, 38, 0.959) solid 1px;
 	text-decoration: none;
 }
+.Home-Page-Body-Buttons {
+	display: flex;
+	width: 100%;
+}
 #vendorSignUpForm {
 	height: 8px;
 	width: 15px;
@@ -131,10 +135,10 @@
 	width: 100%;
 }
 
-a {
-justify-content: space-around;
-margin-right: 3em;
-font-size: 22px;
+#nav-bar a {
+	justify-content: space-around;
+	margin-right: 3em;
+	font-size: 18px;
 }
 
 #donate-button {
@@ -167,6 +171,12 @@ font-size: 22px;
 	border-radius: 3px;
 	margin: 10px;
 }
+.Home-Page-Body-Buttons {
+	display: flex;
+	position: relative;
+	top: -12em;
+	margin-left: 2.5em;
+}
 /* #About-Us-Wrapper{
 	margin-top: 35em;
 	margin-bottom: 35em;
@@ -192,7 +202,17 @@ font-size: 22px;
 	color: rgb(30, 172, 124);
 	font-size: 62px;
 }
-
+#About-Us-Wrapper h2 {
+	display: block;
+	justify-content: center;
+	align-content: center;
+	margin: 3em;
+}
+#About-Us-Wrapper h1 {
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+}
 #About-us p {
 	/* width: 50%; */
 	text-align: justify;
@@ -238,4 +258,3 @@ font-size: 22px;
 #Contact p {
 	font-weight: 600;
 }
-

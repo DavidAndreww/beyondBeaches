@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#header {
+	display: flex;
+	justify-content: space-around;
+	/* position: fixed; */
+	width: 100%;
+	/* top: 0; */
+}
+.logo {
+	background-image: url(./images/BB\ Logo.jpg);
+	height: 150px;
+	width: 300px;
+	position: relative;
+	top: -3.5em;
+}
+#donate-button {
+	background-color: rgba(204, 38, 38, 0.959);
+	height: 35px;
+	margin-bottom: 1em;
+	margin-right: 1em;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	border: none;
+}
+
+#nav-bar {
+	display: flex;
+	padding-top: 2.5em;
+	padding-left: 2em;
+	background-color: white;
+	height: 8.5em;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+#nav-bar button {
+	align-items: center;
+	justify-items: center;
+}
+#nav-link-container {
+	width: 75%;
+	margin-left: 2em;
+}
+.nav-link {
+	text-decoration: none;
+	font-size: 16px;
+}
+a {
+	float: right;
+	margin-right: 25px;
+}
+.nav-link #site-title {
+	display: flex;
+	padding-left: 25px;
+	height: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+/* body {
+	width: auto;
+	background-image: url('./images/mainstreet.jpg');
+	background-color: rgba(247, 191, 70, 0.968);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 900px;
+} */
+
+form {
+	display: inline-block;
+	border-radius: 8px;
+	/* padding: 50px; */
+}
+form p {
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+}
+input {
+	margin: 0.5em;
+	padding: 5px;
+	border-radius: 5px;
+	border: 0.5px solid white;
+}
+::placeholder {
+	color: white;
+}
+#profileBuilderForm {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(233, 12, 12, 0.781);
+	border-radius: 8px;
+	text-align: center;
+	
+}
+#profileBuilderForm h1 {
+	color: white;
+	/* background-color: rgba(233, 12, 12, 0.781); */
+}
+#profileBuilderForm label {
+	color: white;
+}

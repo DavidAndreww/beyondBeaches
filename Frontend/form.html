@@ -28,22 +28,25 @@
 		<div id="main">
 			<section id="signupLeft">
 				<div id="signupHead">
-					<p>Sign up</p>
+					<p>Sign up for business owners Only</p>
 					<section id="signupRight">
 						<h1>
 							SIGN UP AND BUILD YOUR BUSINESS' PROFILE TO SHARE WITH THE WORLD
 						</h1>
-						<br />
 						<h2>
 							BeyondBeachesVI supports <br />
 							Local businesses <br />
 							sustainable practices, <br />
-							and is <br />Dedicated to amplifying and sharing the culture of these islands. <br />
+							and <br />
+							amplifies and shares the culture of USVI. <br />
 							Join Us!
 						</h2>
 					</section>
 				</div>
-				<form>
+				<!-- I NEED TO VALIDATE EMAIL AND BUSINESSES BEFORE ALLOWING THEM TO BUILD PROFILE
+				ALSO NEED TO PREVENT INAPPROPRIATE LANGUAGE "PG" -->
+
+				<form id="signupform">
 					<div class="form-group">
 						<label for="first-name"></label>
 						<input
@@ -53,7 +56,6 @@
 							class="form-control"
 							placeholder="First Name"
 							style="background-color: transparent"
-							
 							required
 						/>
 						<br />
@@ -67,18 +69,7 @@
 							required
 						/>
 					</div>
-					<div class="form-group">
-						<label for="business-name"></label>
-						<input
-							type="text"
-							name="business-name"
-							id="business-name"
-							class="form-control"
-							placeholder="Business Name"
-							style="background-color: transparent; color: white"
-							required
-						/>
-					</div>
+
 					<div class="form-group">
 						<label for="email"></label>
 						<input
@@ -100,78 +91,48 @@
 							style="background-color: transparent"
 							required
 						/><br />
-						<label for="url"></label>
-						<input
-							type="text"
-							name="website address"
-							class="form-control"
-							placeholder="Website Address"
-							style="background-color: transparent"
-						/>
 
 						<br />
 
-						<p>What Type Of Business Do You Operate?</p>
+						<br />
+
+						<br />
+
 						<br />
 						<input
-							type="radio"
-							id="food and beverage"
-							name="food_and_beverage"
-							value="Food and Beverage"
-						/>
-						<label for="food and beverage" style="color: white; font-size: 20px"
-							>Food and Beverage</label
-						><br />
-						<input
-							type="radio"
-							id="tours or charters"
-							name="tours_or_charters"
-							value="Tours or Charters"
-						/>
-						<label
-							for="tours or charters "
-							style="color: white; font-size: 20px"
-							>Tours or Charters</label
-						><br />
-
-						<input
-							type="radio"
-							id="cultural organization"
-							name="cultural_organization"
-							value="cultural organization"
-						/><label
-							for="cultural organization"
-							style="color: white; font-size: 20ox"
-							>Cultural Organization</label
-						><br />
-						<input type="radio" id="other" name="other" value="other" />
-						<label for="other" style="color: white; font-size: 20px"
-							>Other</label
-						>
-						<br />
-
-						<br />
-
-						<br />
-						<button
+							type="submit"
+							value="Register Your Business"
 							style="
 								background-color: rgb(30, 172, 124);
 								color: white;
 								margin-top: 10px;
 								padding: 5px;
-								border: 0.5px solid rgba(204, 38, 38, 0.959);
 								border-radius: 8px;
-								width: 150px;
-								height: 30px;
+								width: 250px;
+								height: 40px;
 								padding: 5px;
 								font-size: 18px;
 							"
-						>
-							Join Us Now!
-						</button>
+						/>
 					</div>
 				</form>
 			</section>
 		</div>
 	</body>
+	<script>
+		const myForm = document.getElementById('signupform');
+		myForm.addEventListener('submit', (e) => {
+			console.log(
+				event.type, // The type of the event
+				event.target, // The target of the event
+				event // The event itself
+			);
+			e.preventDefault(); //this prevents auto form submission
+		});
+		function addNewBusiness(business) {
+			//logic for addNewBusiness 
+			//will need to push the posted info to an array of businesses
+			var newBusiness = {};
+		}
+	</script>
 </html>

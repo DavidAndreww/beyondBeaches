@@ -1,13 +1,195 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile Builder</title>
-    <link rel="stylesheet" href="styles.profileBuilder.css ">
-</head>
-<body>
-   <p>Build Your Profile</p> 
-   
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="forms.styles.css" />
+		<title>vendorProfileForm</title>
+		<nav id="nav-bar">
+			<div class="logo-container">
+				<div class="logo"></div>
+			</div>
+			<!-- <h1 id="site-title">
+            <span class="red">Beyond</span> <span class="orange">Beaches</span>
+            <span class="green">V.I.</span>
+        </h1> -->
+			<div id="nav-link-container">
+				<a class="nav-link red" href="index.html#header">Home</a>
+				<a class="nav-link orange" href="index.html#About-Us-Wrapper">About</a>
+				<a class="nav-link green" href="index.html#Contact">Contact</a>
+				<a class="nav-link red" href="#blog">Blog</a>
+				<a class="nav-link orange" href="ourWork.html">Our Work</a>
+			</div>
+			<button id="donate-button">DONATE</button>
+		</nav>
+	</head>
+	<body>
+		<div id="main">
+			<section id="signupLeft">
+				<div id="signupHead">
+					<p>Business Profile</p>
+					<section id="signupRight">
+						<h1>
+							WELCOME TO BEYOND BEACHES VI BUSINESS' PROFILE BUILDER. <br />
+							SHARE WITH THE WORLD
+						</h1>
+					</section>
+				</div>
+				<!-- I NEED TO VALIDATE EMAIL AND BUSINESSES BEFORE ALLOWING THEM TO BUILD PROFILE
+				ALSO NEED TO PREVENT INAPPROPRIATE LANGUAGE "PG" -->
+
+				<form id="businessProfileForm">
+					<div class="form-group">
+						<label for="busness-name"></label>
+						<input
+							type="text"
+							name="business-name"
+							id="business-name"
+							class="form-control"
+							placeholder="Business Name"
+							style="background-color: transparent"
+							required
+						/>
+
+						<input
+							type="text"
+							name="Website URL"
+							id="website-url"
+							class="form-control"
+							placeholder="Website URL"
+							style="background-color: transparent"
+							required
+						/>
+						<label for="email"></label>
+						<input
+							type="email"
+							name="email"
+							id="email"
+							class="form-control"
+							placeholder="Email"
+							style="background-color: transparent"
+							required
+						/>
+						<label for="phone"></label>
+						<input
+							type="tel"
+							name="phone"
+							id="phone"
+							class="form-control"
+							placeholder="Telephone"
+							style="background-color: transparent"
+							required
+						/>
+						<label for="facebook-url"></label>
+
+						<input
+							type="url"
+							name="facebook-url"
+							id="facebook-url"
+							class="form-control"
+							placeholder="Facebook URL"
+							style="background-color: transparent"
+						/>
+						<label for="instagram-url"></label>
+						<input
+							type="url"
+							name="instagram-url"
+							id="instagram-url"
+							class="form-control"
+							placeholder="Instagram URL"
+							style="background-color: transparent"
+						/>
+						<div>
+							<label for="business-description"
+								><p>Please write a brief description of your business</p>
+								<br
+							/></label>
+							<br />
+							<textarea
+								name="business-description"
+								id="business-description"
+								cols="60"
+								rows="10"
+								style="border-radius: 5px"
+								required
+							>
+							</textarea>
+						</div>
+						<p>What Type Of Business Do You Operate?</p>
+						<br />
+						<input
+							type="radio"
+							id="food and beverage"
+							name="food_and_beverage"
+							value="Food and Beverage"
+						/>
+						<label for="food and beverage" style="color: white; font-size: 20px"
+							>Food and Beverage</label
+						><br />
+						<input
+							type="radio"
+							id="tours or charters"
+							name="tours_or_charters"
+							value="Tours or Charters"
+						/>
+						<label
+							for="tours or charters "
+							style="color: white; font-size: 20px"
+							>Tours or Charters</label
+						><br />
+
+						<input
+							type="radio"
+							id="cultural organization"
+							name="cultural_organization"
+							value="cultural organization"
+						/><label
+							for="cultural organization"
+							style="color: white; font-size: 20ox"
+							>Cultural Organization</label
+						><br />
+						<input type="radio" id="other" name="other" value="other" />
+						<label for="other" style="color: white; font-size: 20px"
+							>Other</label
+						>
+						<br />
+
+						<br />
+
+						<br />
+						<input
+							type="submit"
+							value="Submit Business Profile"
+							style="
+								background-color: rgb(30, 172, 124);
+								color: white;
+								margin-top: 10px;
+								padding: 5px;
+								border-radius: 8px;
+								width: 250px;
+								height: 40px;
+								padding: 5px;
+								font-size: 18px;
+							"
+						/>
+					</div>
+				</form>
+			</section>
+		</div>
+	</body>
+	<script>
+		const myForm = document.getElementById('businessProfileForm');
+		myForm.addEventListener('submit', (e) => {
+			console.log(
+				event.type, // The type of the event
+				event.target, // The target of the event
+				event // The event itself
+			);
+			e.preventDefault(); //this prevents auto form submission
+		});
+		function addNewBusinessProfile(businessProfile) {
+			//logic for new business profile here
+			var newBusinessProfile = {};
+		}
+	</script>
 </html>

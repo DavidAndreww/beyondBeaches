@@ -68,8 +68,10 @@
 	/* top: 0; */
 }
 #nav-link-container {
-	width: 75%;
-	margin-left: 2em;
+	margin-left: 3em;	
+	display: flex;
+	justify-content: left;
+
 }
 
 #nav-bar {
@@ -82,7 +84,11 @@
 	position: sticky;
 	top: 0;
 	z-index: 10;
+<<<<<<< HEAD
 	justify-content: space-around;
+=======
+	justify-content: space-between;
+>>>>>>> 2064722dc2608688bf5a5fd91f3ab74e912ed6c9
 }
 .logo {
 	background-image: url(./images/BB\ Logo.jpg);
@@ -95,14 +101,16 @@
 	font-size: 32px;
 	padding-right: 10em;
 }
-#nav-bar button {
+/* #nav-bar button {
 	align-items: center;
 	justify-items: center;
-}
+} */
 .nav-link {
 	text-decoration: none;
-	padding-left: 55px;
 	font-size: 16px;
+	justify-content: space-between;
+	margin-left: 3em;
+	margin-right: 3em;
 }
 .nav-link #site-title {
 	display: flex;
@@ -111,9 +119,17 @@
 	width: 100%;
 	text-align: center;
 }
-a {
-	float: right;
+#donate-button {
+	background-color: rgba(204, 38, 38, 0.959);
+	height: 35px;
+	margin-bottom: 1em;
+	border-radius: 5px;
+	color: white;
+	border: none;
 }
+/* a {
+	float: right;
+} */
 .top-buttons {
 	padding-top: 3em;
 }
@@ -162,6 +178,7 @@ a {
 	font-size: 28;
 	margin-bottom: 25px;
 }
+<<<<<<< HEAD
 .work-photo {
 	height: 910px;
 	width: 100%;
@@ -179,4 +196,30 @@ a {
 	margin: 2em;
 	padding: 5px;
 	border-radius: 5px;
+=======
+.work-photo{
+	
+	height: 800px;
+	width: 1400px;
+}
+#our-work-volunteer-button{
+    
+        color: white;
+        background-color: rgba(247, 191, 70, 0.968);
+        margin: 2em;
+        padding: 5px;
+        border-radius: 5px;
+    
+}
+#contact-us-button{
+    
+        color: rgba(233, 12, 12, 0.959);
+        background-color: none;
+        margin: 2em;
+        padding: 5px;
+        border-radius: 5px;
+		
+		
+    
+>>>>>>> 2064722dc2608688bf5a5fd91f3ab74e912ed6c9
 }

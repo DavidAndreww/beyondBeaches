@@ -105,9 +105,9 @@
 	top: -3.5em;
 	justify-self: start;
 }
-.nav-left {
+/* .nav-left {
 	display: flex;
-}
+} */
 #nav-bar {
 	display: flex;
 	padding-top: 2.5em;
@@ -121,12 +121,17 @@
 	justify-content: space-between;
 }
 #nav-link-container {
-	margin-left: 3em;
+	margin-left: 3em;	
 	display: flex;
+	justify-content: left;
+
 }
 .nav-link {
 	text-decoration: none;
 	font-size: 16px;
+	justify-content: space-between;
+	margin-left: 3em;
+	margin-right: ;
 }
 .nav-link #site-title {
 	/* display: flex; */
@@ -135,14 +140,18 @@
 	width: 100%;
 }
 
+<<<<<<< HEAD
 #nav-bar a {
 	justify-content: space-around;
 	margin-right: 3em;
 	font-size: 18px;
 }
 
+=======
+>>>>>>> 2064722dc2608688bf5a5fd91f3ab74e912ed6c9
 #donate-button {
 	margin-right: 3em;
+	float: right;
 }
 .top-buttons {
 	padding-top: 3em;

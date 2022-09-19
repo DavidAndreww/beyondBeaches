@@ -2,11 +2,9 @@
 //Via "routes" from the API. Those routes will be defined below  using express.js initialized as "app" variable.
 
 const express = require('express'); //brings in express to our entry file begins building server
-console.log('hello')
-
-const connectDB = require('./config/db');
+console.log('hello');
+const connectDB = require('./Config/db.js');
 //brings in logic from db.js
-
 const app = express(); //initializes app variable with express
 
 app.get('/', (req, res) => res.send('API RUNNING')); //Checks if API is running

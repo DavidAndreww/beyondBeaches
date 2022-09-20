@@ -42,10 +42,11 @@
 }
 #donate-button {
 	background-color: rgba(233, 12, 12, 0.959);
-	margin: 2em;
-	padding: 5px;
+	height: 35px;
+	margin-bottom: 1em;
 	border-radius: 5px;
 	color: white;
+	border: none;
 }
 #hero-title h1 {
 	color: white;
@@ -59,7 +60,6 @@
 .orange {
 	color: rgba(247, 191, 70, 0.968);
 }
-
 #header {
 	display: flex;
 	justify-content: space-around;
@@ -67,13 +67,14 @@
 	width: 100%;
 	/* top: 0; */
 }
-#nav-link-container {
-	margin-left: 3em;	
-	display: flex;
-	justify-content: left;
-
+.logo {
+	background-image: url(./images/BB\ Logo.jpg);
+	height: 150px;
+	width: 300px;
+	position: relative;
+	top: -3.5em;
+	justify-self: start;
 }
-
 #nav-bar {
 	display: flex;
 	padding-top: 2.5em;
@@ -84,55 +85,38 @@
 	position: sticky;
 	top: 0;
 	z-index: 10;
-<<<<<<< HEAD
-	justify-content: space-around;
-=======
 	justify-content: space-between;
->>>>>>> 2064722dc2608688bf5a5fd91f3ab74e912ed6c9
 }
-.logo {
-	background-image: url(./images/BB\ Logo.jpg);
-	height: 150px;
-	width: 300px;
-	position: relative;
-	top: -3.5em;
+#nav-link-container {
+	display: flex;
+	justify-content: space-around;
 }
-#nav-bar h1 {
-	font-size: 32px;
-	padding-right: 10em;
+#nav-link-container :last-child {
+	margin-right: 2rem;
 }
-/* #nav-bar button {
-	align-items: center;
-	justify-items: center;
-} */
 .nav-link {
 	text-decoration: none;
-	font-size: 16px;
-	justify-content: space-between;
-	margin-left: 3em;
-	margin-right: 3em;
+	/* font-size: 16px; */
+	justify-content: center;
+	margin-right: 6em;
 }
 .nav-link #site-title {
-	display: flex;
-	padding-left: 25px;
+	/* display: flex; */
+	/* padding-left: 25px; */
 	height: 50%;
 	width: 100%;
-	text-align: center;
 }
+
 #donate-button {
-	background-color: rgba(204, 38, 38, 0.959);
-	height: 35px;
-	margin-bottom: 1em;
-	border-radius: 5px;
-	color: white;
-	border: none;
-}
-/* a {
+	margin-left: 1em;
 	float: right;
-} */
-.top-buttons {
-	padding-top: 3em;
+	border: none;
+	position: relative;
+	position: sticky;
+	top: -5.5em;
+	z-index: 10;
 }
+
 #headline-banner {
 	height: 40em;
 }
@@ -140,15 +124,9 @@
 	margin: 3em;
 }
 #Our-Work h1 {
-	margin: 1.5em 1em;
+	margin: 1em;
 }
-#Our-Work p {
-	line-height: 2;
-	color: rgba(0, 0, 0, 0.6);
-	font-size: 20px;
-	line-height: 2.5;
-	margin: 2em;
-}
+
 .our-work-title {
 	color: white;
 	display: flex;
@@ -157,7 +135,8 @@
 .our-work-title h1 {
 	font-size: 82px;
 	margin-top: 250px;
-	letter-spacing: normal;
+	letter-spacing: 5;
+	margin-left: 1em;
 }
 .Divider {
 	height: 14em;
@@ -171,17 +150,25 @@
 .Divider-Text {
 	color: white;
 	font-size: 32px;
-	margin-left: 50px;
+	font-weight: 200;
 	font-style: italic;
+	text-justify: center;
 }
 .our-projects-title h3 {
 	font-size: 28;
 	margin-bottom: 25px;
 }
-<<<<<<< HEAD
 .work-photo {
-	height: 910px;
+	height: 800px;
 	width: 100%;
+}
+#Our-Work p {
+	line-height: 2;
+	color: rgba(0, 0, 0, 0.75);
+	font-size: 20px;
+	line-height: 2.5;
+	font-weight: 100;
+	margin: 2em;
 }
 #our-work-volunteer-button {
 	color: white;
@@ -196,30 +183,4 @@
 	margin: 2em;
 	padding: 5px;
 	border-radius: 5px;
-=======
-.work-photo{
-	
-	height: 800px;
-	width: 1400px;
-}
-#our-work-volunteer-button{
-    
-        color: white;
-        background-color: rgba(247, 191, 70, 0.968);
-        margin: 2em;
-        padding: 5px;
-        border-radius: 5px;
-    
-}
-#contact-us-button{
-    
-        color: rgba(233, 12, 12, 0.959);
-        background-color: none;
-        margin: 2em;
-        padding: 5px;
-        border-radius: 5px;
-		
-		
-    
->>>>>>> 2064722dc2608688bf5a5fd91f3ab74e912ed6c9
 }

@@ -48,7 +48,6 @@
 	background-color: rgba(204, 38, 38, 0.959);
 	height: 35px;
 	margin-bottom: 1em;
-	/* padding: 5px; */
 	border-radius: 5px;
 	color: white;
 	border: none;
@@ -123,15 +122,13 @@
 #nav-link-container {
 	margin-left: 3em;	
 	display: flex;
-	justify-content: left;
-
+	
 }
 .nav-link {
 	text-decoration: none;
 	font-size: 16px;
-	justify-content: space-between;
-	margin-left: 3em;
-	margin-right: ;
+	justify-content: space-around;
+	/* margin-right:6em; */
 }
 .nav-link #site-title {
 	/* display: flex; */
@@ -140,18 +137,18 @@
 	width: 100%;
 }
 
-<<<<<<< HEAD
 #nav-bar a {
 	justify-content: space-around;
-	margin-right: 3em;
-	font-size: 18px;
+	
+	
 }
 
-=======
->>>>>>> 2064722dc2608688bf5a5fd91f3ab74e912ed6c9
 #donate-button {
-	margin-right: 3em;
+	margin-right: 10em;
 	float: right;
+	height: 35px;
+	margin-top: .5em;
+	border-radius: 5px;
 }
 .top-buttons {
 	padding-top: 3em;
@@ -186,6 +183,14 @@
 	top: -12em;
 	margin-left: 2.5em;
 }
+p{
+	line-height: 2;
+	color: rgba(0, 0, 0, 0.75);
+	font-size: 20px;
+	line-height: 2.5;
+	font-weight: 100;
+	margin-top:1em;
+}
 /* #About-Us-Wrapper{
 	margin-top: 35em;
 	margin-bottom: 35em;
@@ -218,25 +223,11 @@
 	margin: 3em;
 }
 #About-Us-Wrapper h1 {
-	margin: 5px;
+	/* margin: 5px; */
 	display: flex;
 	justify-content: center;
 }
-#About-us p {
-	/* width: 50%; */
-	text-align: justify;
-	line-height: 2.5;
-	color: rgba(0, 0, 0, 0.468);
-	font-size: 18px;
-	/* margin: 2em; */
-}
 
-#Our-Work {
-	color: white;
-	background-color: rgb(30, 172, 124);
-	padding: 5px;
-	border-radius: 5px;
-}
 
 #image-div {
 	background-image: url('./images/ruinstjohn.jpeg');
@@ -262,6 +253,7 @@
 }
 #Contact-Us p {
 	font-size: 18px;
+	font-weight: 100;
 }
 
 #Contact p {

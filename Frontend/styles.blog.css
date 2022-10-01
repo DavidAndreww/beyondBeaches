@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#donate-button {
+	background-color: rgba(233, 12, 12, 0.959);
+	height: 35px;
+	margin-bottom: 1em;
+	border-radius: 5px;
+	color: white;
+	border: none;
+}
+#hero-title h1 {
+	color: white;
+}
+.red {
+	color: rgba(233, 12, 12, 0.959);
+}
+.green {
+	color: rgb(30, 172, 124);
+}
+.orange {
+	color: rgba(247, 191, 70, 0.968);
+}
+#header {
+	display: flex;
+	/* justify-content: space-around; */
+	/* position: fixed; */
+	width: 100%;
+	/* top: 0; */
+}
+.logo {
+	background-image: url(./images/BB\ Logo.jpg);
+	height: 150px;
+	width: 300px;
+	position: relative;
+	top: -3.5em;
+	justify-self: start;
+}
+#nav-bar {
+	display: flex;
+	padding-top: 2.5em;
+	padding-left: 2em;
+	background-color: white;
+	height: 8.6em;
+	width: 100%;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	justify-content: space-between;
+}
+
+#nav-link-container {
+	display: flex;
+    justify-content: center;
+}
+#nav-link-container :last-child {
+	margin-right: 2rem;
+}
+.nav-link {
+	text-decoration: none;
+}
+.nav-link #site-title {
+	/* display: flex; */
+	/* padding-left: 25px; */
+	height: 50%;
+	width: 100%;
+}
+
+#donate-button {
+	margin-left: 1em;
+	float: right;
+	border: none;
+	position: relative;
+	position: sticky;
+	top: -5.5em;
+	z-index: 10;
+}
+body{
+    width: 100%;
+}
+
+.divider{
+    width: 100%;
+    Height: 14em;
+    background-color:rgba(233, 12, 12, 0.959) ;
+}
+.blogHead{
+    height: 800px;
+    width: 100%;
+    background-image: url('images/lunaguillenbrownie.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.blogHead h1{
+    color: white;
+    letter-spacing: 15;
+    font-size: 102px;
+    position: relative;
+    top: 4em;
+    left: 6em;
+    justify-self: center;}

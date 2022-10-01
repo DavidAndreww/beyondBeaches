@@ -87,18 +87,19 @@
 	z-index: 10;
 	justify-content: space-between;
 }
+a{
+	position: relative;
+	right: 23em;
+}
 #nav-link-container {
 	display: flex;
-	justify-content: space-around;
+	/* justify-content: space-around; */
 }
 #nav-link-container :last-child {
 	margin-right: 2rem;
 }
 .nav-link {
 	text-decoration: none;
-	/* font-size: 16px; */
-	justify-content: center;
-	margin-right: 6em;
 }
 .nav-link #site-title {
 	/* display: flex; */
@@ -121,7 +122,7 @@
 	height: 40em;
 }
 #Our-Work {
-	margin: 3em;
+	/* margin: 3em; */
 }
 #Our-Work h1 {
 	margin: 1em;
@@ -133,9 +134,9 @@
 	justify-content: center;
 }
 .our-work-title h1 {
-	font-size: 82px;
+	font-size: 102px;
 	margin-top: 250px;
-	letter-spacing: 5;
+	letter-spacing: 20;
 	margin-left: 1em;
 }
 .Divider {
@@ -170,17 +171,4 @@
 	font-weight: 100;
 	margin: 2em;
 }
-#our-work-volunteer-button {
-	color: white;
-	background-color: rgba(247, 191, 70, 0.968);
-	margin: 2em;
-	padding: 5px;
-	border-radius: 5px;
-}
-#contact-us-button {
-	color: rgba(233, 12, 12, 0.959);
-	background-color: none;
-	margin: 2em;
-	padding: 5px;
-	border-radius: 5px;
-}
+

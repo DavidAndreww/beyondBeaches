@@ -52,7 +52,7 @@
 	margin-top: 0.5em;
 	border-radius: 5px;
 }
-body{
+body {
 	display: block;
 	margin-left: 6em;
 }
@@ -65,14 +65,21 @@ body{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	margin: .5em ;
+	margin: 0.5em;
 	/* background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-color: white; */
-	
 }
-
+.search input {
+	width: 200px;
+	font-size: 16px;
+	padding: .25em;
+	margin: .45em;
+}
+.search label{
+	color: rgba(0, 0, 0, 0.531)
+}
 
 #venueName {
 	justify-items: center;
@@ -147,4 +154,3 @@ button {
 	height: 10px;
 	width: 50px;
 }
-

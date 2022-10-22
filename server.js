@@ -4,6 +4,7 @@
 const express = require('express'); //brings in express to our entry file begins building server
 console.log('hello');
 const connectDB = require('./Config/db.js');
+console.log('db connected');
 //brings in logic from db.js
 const app = express(); //initializes app variable with express
 

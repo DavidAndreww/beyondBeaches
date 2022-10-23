@@ -5,13 +5,13 @@
 }
 
 #headline-banner {
-	background-image: url('./images/gray-and-green-turtle-swimming-on-water-68744.jpg' );
+	background-image: url('./images/youngpeopleatlannai.jpeg' );
 	height: 800px;
 	width: 100%;
 	background-repeat: no-repeat;
-	background-position: bottom;
+	background-position: center;
 	background-size: cover;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.794);
 	opacity: 1;
 	/* margin-bottom: 4em; */
 }
